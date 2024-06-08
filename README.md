@@ -11,6 +11,8 @@ Therefore <mark>**spreadsheet is all you need**<mark>.
 
 ![**spreadsheet is all you need**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/spreadsheetisallyouneed.jpg?raw=true)
 
+![**The core of a transformer--self attention**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/KQV.jpg?raw=true)
+
 
 ## What components will you see
 It contains all the transformer components including:
