@@ -1,5 +1,5 @@
 # Spreadsheet Is All You Need
-A nanoGPT pipeline packed in a spreadsheet
+**A nanoGPT pipeline packed in a spreadsheet**
 
 This is a project that I did to help myself learn the architecture of GPT.<br>
 It is pretty fun to play with, especially when you are trying to figure out what exactly is going on inside a transformer.<br>
