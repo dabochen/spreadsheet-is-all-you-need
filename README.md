@@ -9,8 +9,11 @@ While reading about LLMs, I realised that the internal mechanisms of a transform
 Then with some trial and errors, I wrote the full inference pipeline of the nanoGPT project into a single spreadsheet.<br>
 Therefore <mark>**spreadsheet is all you need**<mark>.
 
+
+**This is the full view of the spreadsheet**
 ![**spreadsheet is all you need**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/spreadsheetisallyouneed.jpg?raw=true)
 
+**Zooming into the core of a transformer--self attention**
 ![**The core of a transformer--self attention**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/KQV.jpg?raw=true)
 
 
