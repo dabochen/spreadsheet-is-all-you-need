@@ -1,4 +1,4 @@
-# spreadsheet_is_all_you_need
+# Spreadsheet Is All You Need
 A nanoGPT pipeline packed in a spreadsheet
 
 This is a project that I did to help myself learn the architecture of GPT.
@@ -31,6 +31,10 @@ Due to the internal mechanism of spreadsheet softwares, everytime you update the
 Depending on the processor of your computer this may take a few seconds to update all the values on the page.
 
 The spreadsheet doesn't contain actual trained weights and parameters, so you should not expect it to calculate the correct result for you before you update the parameters.
+
+You might also be wondering if there is an excel version, unfortunately there isn't one yet.
+It is simply because the whole pipeline is too large and I need multiple tables to organize everything, and only numbers can do this.
+Although I will see if I can recreate this in excel at some point.
 
 ## How to read it/use it
 Firstly, all the blocks are the values or parameters that is processed through the GPT architecture, they are being color coded as purple, green and orange.
