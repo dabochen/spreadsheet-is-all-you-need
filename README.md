@@ -9,7 +9,7 @@ While reading about LLMs, I realised that the internal mechanisms of a transform
 Then with some trial and errors, I wrote the full inference pipeline of the nanoGPT project into a single spreadsheet.
 Therefore **spreadsheet is all you need**.
 
-![**spreadsheet is all you need**]([URL_to_image](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/spreadsheetisallyouneed.jpg?raw=true))
+![**spreadsheet is all you need**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/spreadsheetisallyouneed.jpg?raw=true)
 
 
 ## What components will you see
