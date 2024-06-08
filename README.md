@@ -50,12 +50,17 @@ There are three transformers 0/1/2, each have the same structure and should cont
 Lastly, this demo is built with great help from the LLM visualization project (https://bbycroft.net/llm) which uses 3D animations to explain transformers.<br>
 I kept the example it used which is about sorting letters.
 
-## What can you do with this
+## What else can you do with this
 1. Read through the whole spreadsheet will help you to form a visual impression of what a transformer is.
 2. Each block contains the actual calculation, which you can double click to watch the details.
 3. By selecting the green cells (the values), you can see which other values or parameters are influencing this cell, so that you can get a sense of the mechanism.
 4. Try to make changes to the parameters and see what might happen.
 5. If you happen to have the weights of NanoGPT, you can replace the parameters in this spreadsheet to get it working properly.
+
+
+## Contribution
+Anyone is welcomed if they want to build something more complicated than nanogpt, although I do feel like nanoGPT in a spreadsheet is already a lot for my computer.<br>
+But why not bigger? 😂
 
 
 ## Special Thanks
