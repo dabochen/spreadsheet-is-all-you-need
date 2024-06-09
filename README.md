@@ -1,12 +1,15 @@
 # Spreadsheet Is All You Need
 **A nanoGPT pipeline packed in a spreadsheet**
 
-This is a project that I did to help myself learn the architecture of GPT.<br>
+This is a project that I did to help myself understand how GPT works.<br>
 It is pretty fun to play with, especially when you are trying to figure out what exactly is going on inside a transformer.<br>
-This helped me to visualize the entire structure and the dataflow with all the mechanisms inside it to be interactive.<br>
+This helped me to visualize the entire structure and the data flow.<br> 
+All the mechanisms, calculations, matrices inside are fully interactive and configurable.<br>
 
-While reading about LLMs, I realised that the internal mechanisms of a transformer is basically a lot of matrices calculation, so I thought why don't I try to visualize it in a spreadsheet.<br>
-Then with some trial and errors, I wrote the full inference pipeline of the nanoGPT project into a single spreadsheet.<br>
+While reading about LLMs, I realised that the internal mechanisms of a transformer is basically a range of matrices calculations being connected in a certain order.<br>
+I started to wonder if the whole process can be repersented in a spreadsheet since all the calculations are fairly simple.
+I'm a visual thinker, I couldn't think of a better way to do it.
+Then with some trial and errors, I wrote the full inference pipeline of the nanoGPT architecture into a single spreadsheet.<br>
 Therefore <mark>**spreadsheet is all you need**<mark>.
 
 
@@ -29,43 +32,43 @@ It contains all the transformer components including:
 
 It is based on Andrej Karpathy's NanoGPT structure which includes roughly 85000 parameters.<br>
 It is clearly a very small size, but it is both complex enough for me to understand how it works, and also not too big to crash my computer.
+In contrast to chatgpt, this project is a character based prediction system, meaning that each token is a character, and to reduce the complexity, only letter A/B/C are being tokenized.
 
-## What is included 
+## What else is included 
 In the numbers file "nanoGPT.numbers", you will see two tabs, one called "no weights" and one called "random weights".<br>
-They are essentially the same thing, only that all the parameters in the "random weights" tab is randomly generated and the parameters in the "no weights tab" is too tidy it shows weird values down the pipeline, but it is also clearer to help you read it. That's why I kept both.<br>
-Due to the internal mechanism of spreadsheet softwares, everytime you update the spreadsheet, all the values will be regenerated again (a bit annoying, and you can avoid it by turning all the values into a static value).<br>
-Depending on the processor of your computer this may take a few seconds to update all the values on the page.
+They are essentially the same thing, only that all the parameters in the "random weights" tab is randomly generated and the parameters in the "no weights" tab is very tidy and it shows weird values down the pipeline, but it is also clearer to help you read it. That's why I kept both.<br>
+Due to the internal mechanism of spreadsheet softwares, everytime you update the spreadsheet in the "random weights" tab, all the values will be regenerated again (freezes the computer for a few seconds as it is a lot of calculation which is a bit annoying, but you can avoid it by turning all the values into a static value).<br>
 
 The spreadsheet doesn't contain actual trained weights and parameters, so you should not expect it to calculate the correct result for you before you update the parameters.
 
-You might also be wondering if there is an excel version, unfortunately there isn't one yet.<br>
+You might also be wondering if there is an excel or a google sheets version, unfortunately there isn't one yet.<br>
 It is simply because the whole pipeline is too large and I need multiple tables to organize everything, and only numbers can do this.<br>
-Although I will see if I can recreate this in excel at some point.
+I will see if I can recreate this in excel in the near future.
 
 ## How to read it/use it
 Firstly, all the blocks are the values or parameters that is processed through the GPT architecture, they are being color coded as purple, green and orange.
 
-Purple: these are parameters that are supposed be replaced by a trained model's parameter.<br>
-Green: these are the values that started from the input and gets transformed into the end results.<br>
-Orange: these are just intermediate values that are used for the calculation, they are here so it is less confusing.
+**Purple**: these are parameters that are supposed be replaced by a trained model's parameter.<br>
+**Green**: these are the values that started from the input and gets transformed into the end results.<br>
+**Orange**: these are just intermediate values that are used for the calculation, they are here so it is less confusing.
 
-Secondly, you should start from the top to the bottom, and there are labels on the left of the page showing what stages you are in.<br>
-There are three transformers 0/1/2, each have the same structure and should contain different parameters and data go through all of them in the sequential order.
+Secondly, you should start from the top and work all the way down to the bottom, and there are labels on the left of the page showing what stage you are in.<br>
+There are three transformers labeled 0/1/2, each have the same structure and should contain different parameters, data will go through all of them in the sequential order.
 
-Lastly, this demo is built with great help from the LLM visualization project (https://bbycroft.net/llm) which uses 3D animations to explain transformers.<br>
+Lastly, this demo is built with great help from the LLM visualization project (https://bbycroft.net/llm) by Brendan Bycroft which uses 3D animations to explain transformers.<br>
 I kept the example it used which is about sorting letters.
 
 ## What else can you do with this
-1. Read through the whole spreadsheet will help you to form a visual impression of what a transformer is.
-2. Each block contains the actual calculation, which you can double click to watch the details.
+1. Read through the whole spreadsheet will help you form a visual impression of what a transformer is.
+2. Each cell contains the actual calculation, which you can double click to checkout the details(function).
 3. By selecting the green cells (the values), you can see which other values or parameters are influencing this cell, so that you can get a sense of the mechanism.
 4. Try to make changes to the parameters and see what might happen.
 5. If you happen to have the weights of NanoGPT, you can replace the parameters in this spreadsheet to get it working properly.
 
 
 ## Contribution
-Anyone is welcomed if they want to build something more complicated than nanogpt, although I do feel like nanoGPT in a spreadsheet is already a lot for my computer.<br>
-But why not bigger? 😂
+I wish I could just upload all the tutorials I've watched into chatgpt and ask it to generate this file, but I guess we are not there yet.
+Anyone is welcomed if they want to build something more complicated than nanoGPT, although I do feel like nanoGPT in a spreadsheet is already a lot for my M2 chip.<br>
 
 
 ## Special Thanks
