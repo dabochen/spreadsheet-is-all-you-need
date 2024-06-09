@@ -10,7 +10,7 @@ While reading about LLMs, I realised that the internal mechanisms of a transform
 I started to wonder if the whole process can be repersented in a spreadsheet since all the calculations are fairly simple.
 I'm a visual thinker, I couldn't think of a better way to do it.
 Then with some trial and errors, I wrote the full inference pipeline of the nanoGPT architecture into a single spreadsheet.<br>
-Therefore <mark>**spreadsheet is all you need**<mark>.
+Forget python, it turned out that <mark>**spreadsheet is all you need**<mark>.
 
 
 **This is the full view of the spreadsheet**
