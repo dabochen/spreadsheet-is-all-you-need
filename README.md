@@ -43,7 +43,7 @@ The spreadsheet doesn't contain actual trained weights and parameters, so you sh
 
 You might also be wondering if there is an excel or a google sheets version, unfortunately there isn't one yet.<br>
 It is simply because the whole pipeline is too large and I need multiple tables to organize everything, and only numbers can do this.<br>
-I will see if I can recreate this in excel in the near future.
+I will see if I can recreate this in excel in the near future(It is added now, just check the excel file in the list).
 
 ## How to read it/use it
 Firstly, all the blocks are the values or parameters that is processed through the GPT architecture, they are being color coded as purple, green and orange.
