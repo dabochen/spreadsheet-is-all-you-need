@@ -1,9 +1,5 @@
-# Spreadsheet Is All You Need
+# Spreadsheet Is All You Need (Excel version added!)
 **A nanoGPT pipeline packed in a spreadsheet**
-
-<div style="background-color: #ffff99; padding: 10px; border-radius: 10px;">
-  Excel version added!
-</div>
 
 This is a project that I did to help myself understand how GPT works.<br>
 It is pretty fun to play with, especially when you are trying to figure out what exactly is going on inside a transformer.<br>
