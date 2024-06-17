@@ -1,4 +1,4 @@
-# Spreadsheet Is All You Need
+# Spreadsheet Is All You Need (Excel version added!)
 **A nanoGPT pipeline packed in a spreadsheet**
 
 This is a project that I did to help myself understand how GPT works.<br>
@@ -43,7 +43,7 @@ The spreadsheet doesn't contain actual trained weights and parameters, so you sh
 
 You might also be wondering if there is an excel or a google sheets version, unfortunately there isn't one yet.<br>
 It is simply because the whole pipeline is too large and I need multiple tables to organize everything, and only numbers can do this.<br>
-I will see if I can recreate this in excel in the near future.
+I will see if I can recreate this in excel in the near future(It is added now, just check the excel file in the list).
 
 ## How to read it/use it
 Firstly, all the blocks are the values or parameters that is processed through the GPT architecture, they are being color coded as purple, green and orange.
@@ -57,6 +57,8 @@ There are three transformers labeled 0/1/2, each have the same structure and sho
 
 Lastly, this demo is built with great help from the LLM visualization project (https://bbycroft.net/llm) by Brendan Bycroft which uses 3D animations to explain transformers.<br>
 I kept the example it used which is about sorting letters.
+
+If you are using the recently added Excel version, you will note that it might look the same as the attached images, this is due to the limitation of excel not being able to include multiple tables on one page, to make it clearer, I added the "MAP" tab and "Visual Structure of the pipeline" tab, these two will give you a menu and a rought layout of the architecture, you can click on the link to jump to the page and come back using the go back link on the top left of each page.
 
 ## What else can you do with this
 1. Read through the whole spreadsheet will help you form a visual impression of what a transformer is.
